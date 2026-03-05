@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Dark background -->
+    <path android:fillColor="#FF0A0A0F" android:pathData="M0,0h108v108H0z" />
+    <!-- Outer border ring for visibility on dark wallpapers -->
+    <path
+        android:pathData="M54,54 m-36,0 a36,36 0,1,1 72,0 a36,36 0,1,1 -72,0"
+        android:strokeColor="#FF1E1E2E"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <!-- Subtle inner glow -->
+    <path
+        android:pathData="M54,54 m-28,0 a28,28 0,1,1 56,0 a28,28 0,1,1 -56,0"
+        android:fillColor="#0800E5A0" />
+    <!-- NFC signal arc 3 (outer) -->
+    <path
+        android:pathData="M36,72 Q16,54 36,36"
+        android:strokeColor="#FF00E5A0"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.25"
+        android:fillColor="#00000000" />
+    <!-- NFC signal arc 2 -->
+    <path
+        android:pathData="M42,66 Q28,54 42,42"
+        android:strokeColor="#FF00E5A0"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.55"
+        android:fillColor="#00000000" />
+    <!-- NFC signal arc 1 (inner) -->
+    <path
+        android:pathData="M48,60 Q40,54 48,48"
+        android:strokeColor="#FF00E5A0"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Center dot -->
+    <path
+        android:pathData="M54,54 m-4,0 a4,4 0,1,1 8,0 a4,4 0,1,1 -8,0"
+        android:fillColor="#FF00E5A0" />
+    <!-- Tag card outline -->
+    <path
+        android:pathData="M60,40 L76,40 Q80,40 80,44 L80,64 Q80,68 76,68 L60,68 Q56,68 56,64 L56,44 Q56,40 60,40 Z"
+        android:strokeColor="#FF00E5A0"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#1200E5A0" />
+    <!-- Tag data lines -->
+    <path android:pathData="M62,48 L74,48" android:strokeColor="#FF00E5A0" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.45" />
+    <path android:pathData="M62,53 L70,53" android:strokeColor="#FF00E5A0" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.3" />
+    <path android:pathData="M62,58 L72,58" android:strokeColor="#FF00E5A0" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeAlpha="0.3" />
+</vector>

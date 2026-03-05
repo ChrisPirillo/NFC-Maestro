@@ -12,12 +12,6 @@ A beautifully designed Android NFC tag manager. Read, write, clone, lock, and er
 - **History** — Swipe to delete, clear all, tappable URL entries
 - **About** — Built-in help with links
 
-## Building
-
-1. Upload files to a GitHub repo
-2. Create `.github/workflows/build.yml` via GitHub web editor (paste from WORKFLOW.yml)
-3. Download the APK artifact from Actions
-
 ## Credits
 
 Built by [Chris Pirillo](https://chris.pirillo.com/) — [arcade.pirillo.com](https://arcade.pirillo.com/)
